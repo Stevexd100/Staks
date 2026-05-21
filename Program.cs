@@ -13,8 +13,14 @@ class Program
         pedidos.Push("Cafe");
         pedidos.Push("Sandwich");
 
+        string actual = pedidos.Peek();
+        Console.WriteLine($"Tope actual: {actual}");
         Console.WriteLine(pedidos.Count);
 
+        string retirado = pedidos.Pop();
+        Console.WriteLine($"Se retiro: {retirado}");
+        Console.WriteLine(pedidos.Count);
 
+        Console.WriteLine(pedidos.Peek());
     }
 }
