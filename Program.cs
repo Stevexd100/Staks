@@ -22,5 +22,6 @@ class Program
         Console.WriteLine(pedidos.Count);
 
         Console.WriteLine(pedidos.Peek());
+        // los cambios para guardar
     }
 }
