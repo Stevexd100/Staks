@@ -1,0 +1,20 @@
+﻿using System ;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main()
+    {
+        Stack<string> pedidos = new Stack<string>();
+
+        pedidos.Push("Tacos");
+        pedidos.Push("Torta");
+        pedidos.Push("Agua");
+        pedidos.Push("Cafe");
+        pedidos.Push("Sandwich");
+
+        Console.WriteLine(pedidos.Count);
+
+
+    }
+}
